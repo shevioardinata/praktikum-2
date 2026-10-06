@@ -1,48 +1,230 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Profil Kampus | UMPKU</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio Shevio Ardinata</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <a class="lewati" href="#konten">Lewati ke konten</a>
-  <div class="halaman">
-    <header class="header" id="beranda">
-      <p class="identitas">Praktikum Pemrograman Web</p>
-      <h1>Universitas Muhammadiyah PKU Surakarta</h1>
-      <p>Belajar membangun halaman web yang rapi dan responsif.</p>
-</header>
-<nav class="menu" aria-label="Navigasi utama">
-  <a href="#beranda">Beranda</a>
-  <a href="#profil">Profil</a>
-  <a href="#layanan">Layanan</a>
-</nav>
-<main id="konten" tabindex="-1">
-  <section id="profil" class="panel">
-    <h2>Profil Kampus</h2>
-    <p>Halaman ini merupakan latihan HTML dan CSS dengan
-      identitas Universitas Muhammadiyah PKU Surakarta.</p>
-</section>
-<section id="layanan" class="panel">
-  <h2>Contoh Layanan Digital</h2>
-  <div class="kartu-grid">
-    <article class="kartu">
-      <h3>Informasi Akademik</h3>
-      <p>Contoh ruang informasi kegiatan perkuliahan.</p>
-    </article>
-    <article class="kartu">
-      <h3>Pembelajaran Daring</h3>
-      <p>Contoh ruang informasi materi dan tugas kuliah.</p>
-      </article>
-    </div>
-  </section>
-</main>
-<footer class="footer">
-  <p>Universitas Muhammadiyah PKU Surakarta</p>
-  <p>Latihan mahasiswa — Praktikum Pemrograman Web</p>
-</footer>
-</div>
+
+    <!-- NAVBAR -->
+    <header>
+
+        <div class="logo">
+            SHEVIO ARDINATA
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Tentang</a>
+            <a href="#hobi">Hobi</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home" class="home">
+
+        <div class="home-text">
+
+            <p class="hello">
+                HALO, SAYA
+            </p>
+
+            <h1>
+                Shevio Ardinata
+            </h1>
+
+            <h2>
+                Student & Future Programmer
+            </h2>
+
+            <p class="description">
+                Selamat datang di website pribadi saya.
+                Website ini berisi informasi singkat
+                tentang diri saya.
+            </p>
+
+            <a href="#about" class="button">
+                Lihat Profil
+            </a>
+
+        </div>
+
+
+        <div class="profile">
+
+            <img src="foto.jpeg" alt="Foto Shevio Ardinata">
+
+        </div>
+
+    </section>
+
+
+    <!-- TENTANG -->
+    <section id="about" class="section">
+
+        <h2 class="title">
+            Tentang Saya
+        </h2>
+
+        <div class="about-box">
+
+            <h3>
+                Data Diri
+            </h3>
+
+            <p>
+                <b>Nama:</b>
+                Shevio Ardinata
+            </p>
+
+            <p>
+                <b>Tempat, Tanggal Lahir:</b>
+                Semarang, 27 September 2003
+            </p>
+
+            <p>
+                <b>Alamat:</b>
+                Semarang, Jawa tengah, Indonesia
+            </p>
+
+            <p>
+                <b>Kampus:</b>
+                UMPKU Muhammadiyah Surakarta
+            </p>
+
+            <p>
+                <b>Program Studi:</b>
+                Elektromedis D4
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- HOBI -->
+    <section id="hobi" class="section dark">
+
+        <h2 class="title">
+            Hobi & Minat
+        </h2>
+
+
+        <div class="cards">
+
+
+            <div class="card">
+
+                <div class="emoji">
+                    🎮
+                </div>
+
+                <h3>
+                    Gaming
+                </h3>
+
+                <p>
+                    Bermain game sebagai hiburan
+                    dan mengisi waktu luang.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="emoji">
+                    🎵
+                </div>
+
+                <h3>
+                    Musik
+                </h3>
+
+                <p>
+                    Mendengarkan musik adalah salah
+                    satu kegiatan yang saya sukai.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="emoji">
+                    💻
+                </div>
+
+                <h3>
+                    Coding
+                </h3>
+
+                <p>
+                    Saya tertarik mempelajari
+                    programming dan membuat website.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- KONTAK -->
+    <section id="contact" class="section contact">
+
+        <h2 class="title">
+            Kontak
+        </h2>
+
+        <p>
+            Kamu bisa menghubungi saya melalui:
+        </p>
+
+
+        <div class="contact-buttons">
+
+            <a href="https://instagram.com/shevioardinata"
+               target="_blank">
+                Instagram
+            </a>
+
+            <a href="https://wa.me/681225341639"
+               target="_blank">
+                WhatsApp
+            </a>
+
+            <a href="mailto:sevioardinata09@gmail.com">
+                Email
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Shevio Ardinata
+        </p>
+
+    </footer>
+
+
 </body>
+
 </html>
